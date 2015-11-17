@@ -1,12 +1,12 @@
 
-`
+c
 Command: %s
-1870*	planAhead24
- open_checkpoint aula4_routed.dcp2default:defaultZ12-2866
-]
+1870*	planAhead27
+#open_checkpoint piscaLed_routed.dcp2default:defaultZ12-2866
+\
 -Analyzing %s Unisim elements for replacement
-17*netlist2
-182default:defaultZ29-17
+17*netlist2
+22default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -43,14 +43,14 @@ BC:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml2default:de
 +Loading device configuration modes from %s
 14*device2T
 @C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml2default:defaultZ21-14
-™
+¦
 Parsing XDC File [%s]
-179*designutils2c
-OT:/15.800000105/aula3/aula3.runs/impl_1/.Xil/Vivado-11968-J309-B3/dcp/aula4.xdc2default:defaultZ20-179
-¢
+179*designutils2p
+\T:/15.800000105/fpga_allan/aula3/aula3.runs/impl_1/.Xil/Vivado-9384-J309-B3/dcp/piscaLed.xdc2default:defaultZ20-179
+¯
 Finished Parsing XDC File [%s]
-178*designutils2c
-OT:/15.800000105/aula3/aula3.runs/impl_1/.Xil/Vivado-11968-J309-B3/dcp/aula4.xdc2default:defaultZ20-178
+178*designutils2p
+\T:/15.800000105/fpga_allan/aula3/aula3.runs/impl_1/.Xil/Vivado-9384-J309-B3/dcp/piscaLed.xdc2default:defaultZ20-178
 6
 Reading XDEF placement.
 206*designutilsZ20-206
@@ -63,16 +63,16 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 Read XDEF File: 2default:default2
 00:00:002default:default2 
 00:00:00.0262default:default2
-447.1332default:default2
-0.0042default:defaultZ17-268
+448.2662default:default2
+0.0002default:defaultZ17-268
 3
 Restoring placement.
 754*designutilsZ20-754
 Ù
 ORestored %s out of %s XDEF sites from archive | CPU: %s secs | Memory: %s MB |
 403*designutils2
-352default:default2
-352default:default2
+512default:default2
+512default:default2
 0.0000002default:default2
 0.0000002default:defaultZ20-403
 C
@@ -105,10 +105,10 @@ G
 Running DRC with %s threads
 24*drc2
 22default:defaultZ23-27
-l
+]
 DRC finished with %s
-1905*	planAhead27
-#0 Errors, 14 Warnings, 1 Advisories2default:defaultZ12-3199
+1905*	planAhead2(
+0 Errors, 1 Warnings2default:defaultZ12-3199
 `
 BPlease refer to the DRC report (report_drc) for more information.
 1906*	planAheadZ12-3200
@@ -130,10 +130,10 @@ BPlease refer to the DRC report (report_drc) for more information.
 .
 Creating bitstream...
 7*	bitstreamZ40-7
-S
+V
 Writing bitstream %s...
-11*	bitstream2
-./aula4.bit2default:defaultZ40-11
+11*	bitstream2"
+./piscaLed.bit2default:defaultZ40-11
 =
 Bitgen Completed Successfully.
 1606*	planAheadZ12-1842
@@ -151,10 +151,10 @@ Q
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2%
 write_bitstream: 2default:default2
-00:00:342default:default2
-00:00:352default:default2
-800.0942default:default2
-352.9612default:defaultZ17-268
+00:00:322default:default2
+00:00:332default:default2
+801.8752default:default2
+353.6092default:defaultZ17-268
 
 
 End Record

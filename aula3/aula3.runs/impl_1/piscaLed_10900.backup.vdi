@@ -1,0 +1,490 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 16 21:06:20 2015
+# Process ID: 8672
+# Log file: T:/15.800000105/fpga_allan/aula3/aula3.runs/impl_1/piscaLed.vdi
+# Journal file: T:/15.800000105/fpga_allan/aula3/aula3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source piscaLed.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.1
+Loading clock regions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.1/data/parts/xilinx/artix7/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/artix7/xc7a100t/csg324/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'sw[0]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'sw[1]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'sw[2]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'sw[3]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'sw[4]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'sw[5]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'sw[6]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'sw[7]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'sw[8]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:39]
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:41]
+WARNING: [Vivado 12-584] No ports matched 'sw[9]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:42]
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'sw[10]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'sw[11]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'sw[12]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'sw[13]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'sw[14]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'sw[15]'. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc:60]
+Finished Parsing XDC File [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.068 . Memory (MB): peak = 449.438 ; gain = 0.121
+
+Starting Logic Optimization Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: c2594f68
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 866.828 ; gain = 417.391
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+INFO: [Opt 31-10] Eliminated 34 cells.
+Phase 2 Constant Propagation | Checksum: 296bf2c07
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 866.828 ; gain = 417.391
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 33 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 3 Sweep | Checksum: 1bf46eb35
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 866.828 ; gain = 417.391
+Ending Logic Optimization Task | Checksum: 1bf46eb35
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:12 . Memory (MB): peak = 866.828 ; gain = 417.391
+Implement Debug Cores | Checksum: c2594f68
+Logic Optimization | Checksum: c2594f68
+
+Starting Power Optimization Task
+Ending Power Optimization Task | Checksum: 1bf46eb35
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 866.828 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+19 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 866.828 ; gain = 419.477
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.088 . Memory (MB): peak = 866.828 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.1 Mandatory Logic Optimization
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.1 Mandatory Logic Optimization | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.2 Build Super Logic Region (SLR) Database
+Phase 1.1.2 Build Super Logic Region (SLR) Database | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.3 Add Constraints
+Phase 1.1.3 Add Constraints | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.4 Build Shapes/ HD Config
+
+Phase 1.1.4.1 Build Macros
+Phase 1.1.4.1 Build Macros | Checksum: 156d5a85a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.4 Build Shapes/ HD Config | Checksum: 156d5a85a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.5.1 Pre-Place Cells
+Phase 1.1.5.1 Pre-Place Cells | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.5.2 Implementation Feasibility check
+Phase 1.1.5.2 Implementation Feasibility check | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 870.137 ; gain = 0.000
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.5.3 Implementation Feasibility check On IDelay
+Phase 1.1.5.3 Implementation Feasibility check On IDelay | Checksum: e4f70a4f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.321 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: db3eed95
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.322 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.6 Build Placer Netlist Model
+
+Phase 1.1.6.1 Place Init Design
+
+Phase 1.1.6.1.1 Build Clock Data
+Phase 1.1.6.1.1 Build Clock Data | Checksum: 154d52c3e
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.360 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.6.1 Place Init Design | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.364 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.6 Build Placer Netlist Model | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.364 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 1.1.7 Constrain Clocks/Macros
+
+Phase 1.1.7.1 Constrain Global/Regional Clocks
+Phase 1.1.7.1 Constrain Global/Regional Clocks | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.368 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1.7 Constrain Clocks/Macros | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.368 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1.1 Placer Initialization Core | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.369 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 13d92c81a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.369 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Run Budgeter
+Phase 2.1 Run Budgeter | Checksum: 129147639
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.498 . Memory (MB): peak = 870.137 ; gain = 0.000
+Phase 2 Global Placement | Checksum: 120cc68ef
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.781 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 120cc68ef
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.783 . Memory (MB): peak = 870.137 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1b45c7ca6
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.812 . Memory (MB): peak = 870.477 ; gain = 0.340
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 2533b6276
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.824 . Memory (MB): peak = 870.477 ; gain = 0.340
+
+Phase 3.4 Timing Path Optimizer
+Phase 3.4 Timing Path Optimizer | Checksum: 2091a9bf0
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.829 . Memory (MB): peak = 870.477 ; gain = 0.340
+
+Phase 3.5 Commit Small Macros & Core Logic
+Phase 3.5 Commit Small Macros & Core Logic | Checksum: 8dce19ca
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 876.160 ; gain = 6.023
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 8dce19ca
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 876.160 ; gain = 6.023
+Phase 3 Detail Placement | Checksum: 8dce19ca
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 876.160 ; gain = 6.023
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 PCOPT Shape updates
+Phase 4.1 PCOPT Shape updates | Checksum: 8dce19ca
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 876.160 ; gain = 6.023
+
+Phase 4.2 Post Placement Optimization
+
+Phase 4.2.1 Post Placement Timing Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=6.859. For the most accurate timing information please run report_timing.
+Phase 4.2.1 Post Placement Timing Optimization | Checksum: f71d9c71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+Phase 4.2 Post Placement Optimization | Checksum: f71d9c71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: f71d9c71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+
+Phase 4.4 Placer Reporting
+
+Phase 4.4.1 Restore STA
+Phase 4.4.1 Restore STA | Checksum: f71d9c71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+Phase 4.4 Placer Reporting | Checksum: f71d9c71
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 11195df65
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 11195df65
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+Ending Placer Task | Checksum: 9352bffb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 883.617 ; gain = 13.480
+INFO: [Common 17-83] Releasing license: Implementation
+30 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 883.617 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 883.617 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: c4cbd771
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1052.203 ; gain = 149.902
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: c4cbd771
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1052.203 ; gain = 149.902
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: ed12aeff
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.82   | TNS=0      | WHS=-0.07  | THS=-0.507 |
+
+Phase 2 Router Initialization | Checksum: ed12aeff
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: f2fa9a3f
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 8
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: ae81a9ca
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.12   | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+Phase 4 Rip-up And Reroute | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.2    | TNS=0      | WHS=N/A    | THS=N/A    |
+
+Phase 5 Delay CleanUp | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.2    | TNS=0      | WHS=0.247  | THS=0      |
+
+Phase 7 Post Hold Fix | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00770336 %
+  Global Horizontal Routing Utilization  = 0.00809889 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: df3e91b3
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 695c9cb2
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Phase 11 Post Router Timing
+INFO: [Route 35-57] Estimated Timing Summary | WNS=6.2    | TNS=0      | WHS=0.247  | THS=0      |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 11 Post Router Timing | Checksum: 695c9cb2
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: 695c9cb2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:28 . Memory (MB): peak = 1059.918 ; gain = 157.617
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 32 Warnings, 32 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:30 . Memory (MB): peak = 1059.918 ; gain = 176.301
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1059.918 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file T:/15.800000105/fpga_allan/aula3/aula3.runs/impl_1/piscaLed_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 21:07:11 2015...

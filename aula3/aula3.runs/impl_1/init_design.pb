@@ -10,7 +10,7 @@ a
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-52default:defaultZ29-17
+22default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -53,14 +53,14 @@ BC:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml2default:de
 ^
 1Inserted %s OBUFs to IO ports without IO buffers.101*opt2
 02default:defaultZ31-141
-î
+ü
 Parsing XDC File [%s]
-179*designutils2^
-JT:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-179
-ù
+179*designutils2i
+UT:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-179
+®
 Finished Parsing XDC File [%s]
-178*designutils2^
-JT:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-178
+178*designutils2i
+UT:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-178
 C
 Pushed %s inverter(s).
 98*opt2

@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log aula4.vds -m64 -mode batch -messageDb vivado.pb -source aula4.tcl
+EAStep vivado -log piscaLed.vds -m64 -mode batch -messageDb vivado.pb -source piscaLed.tcl

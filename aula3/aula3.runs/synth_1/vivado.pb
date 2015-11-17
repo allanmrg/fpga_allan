@@ -1,8 +1,8 @@
 
-j
+m
 Command: %s
-53*	vivadotcl2B
-.synth_design -top aula4 -part xc7a100tcsg324-12default:defaultZ4-113
+53*	vivadotcl2E
+1synth_design -top piscaLed -part xc7a100tcsg324-12default:defaultZ4-113
 /
 
 Starting synthesis...
@@ -20,131 +20,153 @@ Starting synthesis...
 xc7a100t2default:defaultZ17-349
 õ
 %s*synth2ã
-wStarting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 233.391 ; gain = 98.984
+wStarting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 233.340 ; gain = 97.852
 2default:default
-∏
-synthesizing module '%s'638*oasys2
-aula42default:default2N
-8T:/15.800000105/aula3/aula3.srcs/sources_1/new/aula4.vhd2default:default2
-482default:default8@Z8-638
-Û
-%done synthesizing module '%s' (%s#%s)256*oasys2
-aula42default:default2
+…
+synthesizing module '%s'638*oasys2
+piscaLed2default:default2\
+FT:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd2default:default2
+412default:default8@Z8-638
+˚
+0Net %s in module/entity %s does not have driver.3422*oasys2
+sw2default:default2
+piscaLed2default:default2\
+FT:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd2default:default2
+362default:default8@Z8-3848
+Ñ
+%done synthesizing module '%s' (%s#%s)256*oasys2
+piscaLed2default:default2
 12default:default2
-12default:default2N
-8T:/15.800000105/aula3/aula3.srcs/sources_1/new/aula4.vhd2default:default2
-482default:default8@Z8-256
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[15]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[14]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[13]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[12]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[11]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[10]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[9]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[8]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[7]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[6]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[5]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[4]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[3]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[2]2default:defaultZ8-3331
-n
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-clk2default:defaultZ8-3331
-v
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-btnCpuReset2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+12default:default2\
+FT:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd2default:default2
+412default:default8@Z8-256
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[15]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[14]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[13]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[12]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[11]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[10]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[9]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[8]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[7]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[6]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[5]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[4]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[3]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[2]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[1]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[0]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[15]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[14]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[13]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[12]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[11]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[10]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[9]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[8]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[7]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[6]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[5]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[4]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[3]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[2]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[1]2default:defaultZ8-3331
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 267.250 ; gain = 132.844
+xFinished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 267.203 ; gain = 131.715
 2default:default
 ;
 %s*synth2,
@@ -203,14 +225,14 @@ BC:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOStandards.xml2default:de
 
 Processing XDC Constraints
 244*projectZ1-262
-î
+ü
 Parsing XDC File [%s]
-179*designutils2^
-JT:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-179
-ù
+179*designutils2i
+UT:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-179
+®
 Finished Parsing XDC File [%s]
-178*designutils2^
-JT:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-178
+178*designutils2i
+UT:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc2default:defaultZ20-178
 ?
 &Completed Processing XDC Constraints
 
@@ -222,16 +244,22 @@ u
 2default:defaultZ1-111
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 471.328 ; gain = 336.922
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 2default:default
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 471.328 ; gain = 336.922
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 471.328 ; gain = 336.922
+yFinished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 2default:default
+˚
+0Net %s in module/entity %s does not have driver.3422*oasys2
+sw2default:default2
+piscaLed2default:default2\
+FT:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd2default:default2
+362default:default8@Z8-3848
 <
 %s*synth2-
 
@@ -257,25 +285,69 @@ B
 %s*synth23
 Detailed RTL Component Info : 
 2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     27 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               27 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
+2default:default
 0
 %s*synth2!
 +---Muxes : 
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
+.	   2 Input     27 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 F
 %s*synth27
 #Hierarchical RTL Component report 
 2default:default
-1
-%s*synth2"
-Module aula4 
+4
+%s*synth2%
+Module piscaLed 
 2default:default
 B
 %s*synth23
 Detailed RTL Component Info : 
+2default:default
+1
+%s*synth2"
++---Adders : 
+2default:default
+Q
+%s*synth2B
+.	   2 Input     27 Bit       Adders := 1     
+2default:default
+4
+%s*synth2%
++---Registers : 
+2default:default
+Q
+%s*synth2B
+.	               27 Bit    Registers := 1     
+2default:default
+Q
+%s*synth2B
+.	                1 Bit    Registers := 1     
 2default:default
 0
 %s*synth2!
@@ -283,7 +355,11 @@ B
 2default:default
 Q
 %s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
+.	   2 Input     27 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   2 Input      1 Bit        Muxes := 1     
 2default:default
 z
 %s*synth2k
@@ -291,117 +367,133 @@ WPart Resources:
 DSPs: 240 (col length:80)
 BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
 2default:default
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[15]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[14]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[13]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[12]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[11]2default:defaultZ8-3331
-r
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[10]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[9]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[8]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[7]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[6]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[5]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[4]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[3]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-led[2]2default:defaultZ8-3331
-n
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-clk2default:defaultZ8-3331
-v
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
-btnCpuReset2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[15]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[14]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[13]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[12]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[11]2default:defaultZ8-3331
-q
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[10]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[9]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[8]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[7]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[6]2default:defaultZ8-3331
-p
-!design %s has unconnected port %s3331*oasys2
-aula42default:default2
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
 sw[5]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[4]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[3]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[2]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[1]2default:defaultZ8-3331
+s
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+sw[0]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[15]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[14]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[13]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[12]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[11]2default:defaultZ8-3331
+u
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[10]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[9]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[8]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[7]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[6]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[5]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[4]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[3]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[2]2default:defaultZ8-3331
+t
+!design %s has unconnected port %s3331*oasys2
+piscaLed2default:default2
+led[1]2default:defaultZ8-3331
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 542.672 ; gain = 408.266
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 544.023 ; gain = 408.535
 2default:default
 ¢
 %s*synth2í
@@ -423,23 +515,23 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+zFinished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 †
 %s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+|Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ü
 %s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+{Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ô
 %s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+uFinished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ;
 %s*synth2,
@@ -468,11 +560,11 @@ I+------+------------------+-------+---------+-------+------------------+
 2default:default
 ™
 %s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+ÖFinished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ß
 %s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 ¢
 %s*synth2í
@@ -518,37 +610,57 @@ A
 
 Report Cell Usage: 
 2default:default
-:
-%s*synth2+
-+------+------+------+
+;
+%s*synth2,
++------+-------+------+
 2default:default
-:
-%s*synth2+
-|      |Cell  |Count |
+;
+%s*synth2,
+|      |Cell   |Count |
 2default:default
-:
-%s*synth2+
-+------+------+------+
+;
+%s*synth2,
++------+-------+------+
 2default:default
-:
-%s*synth2+
-|1     |LUT5  |     1|
+;
+%s*synth2,
+|1     |BUFG   |     1|
 2default:default
-:
-%s*synth2+
-|2     |IBUF  |     5|
+;
+%s*synth2,
+|2     |CARRY4 |     7|
 2default:default
-:
-%s*synth2+
-|3     |OBUF  |     2|
+;
+%s*synth2,
+|3     |LUT1   |    27|
 2default:default
-:
-%s*synth2+
-|4     |OBUFT |    14|
+;
+%s*synth2,
+|4     |LUT2   |    29|
 2default:default
-:
-%s*synth2+
-+------+------+------+
+;
+%s*synth2,
+|5     |LUT6   |     6|
+2default:default
+;
+%s*synth2,
+|6     |FDRE   |    28|
+2default:default
+;
+%s*synth2,
+|7     |IBUF   |     2|
+2default:default
+;
+%s*synth2,
+|8     |OBUF   |     1|
+2default:default
+;
+%s*synth2,
+|9     |OBUFT  |    31|
+2default:default
+;
+%s*synth2,
++------+-------+------+
 2default:default
 <
 %s*synth2-
@@ -569,7 +681,7 @@ E
 2default:default
 E
 %s*synth26
-"|1     |top      |       |    22|
+"|1     |top      |       |   132|
 2default:default
 E
 %s*synth26
@@ -577,20 +689,20 @@ E
 2default:default
 ¶
 %s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+ÅFinished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 j
 %s*synth2[
-GSynthesis finished with 0 errors, 0 critical warnings and 27 warnings.
+GSynthesis finished with 0 errors, 0 critical warnings and 32 warnings.
 2default:default
 £
 %s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 2default:default
 \
 -Analyzing %s Unisim elements for replacement
 17*netlist2
-52default:defaultZ29-17
+22default:defaultZ29-17
 a
 2Unisim Transformation completed in %s CPU seconds
 28*netlist2
@@ -618,7 +730,7 @@ L
 G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
 28*	vivadotcl2
 112default:default2
-542default:default2
+642default:default2
 02default:default2
 02default:defaultZ4-41
 U
@@ -631,13 +743,13 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 synth_design: 2default:default2
 00:00:212default:default2
 00:00:222default:default2
-562.4882default:default2
-382.6292default:defaultZ17-268
+573.2112default:default2
+393.2112default:defaultZ17-268
 
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 562.488 ; gain = 0.000
+sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 573.211 ; gain = 0.000
 *common
 w
 Exiting %s at %s...
 206*common2
 Vivado2default:default2,
-Mon Nov 09 22:16:23 20152default:defaultZ17-206
+Mon Nov 16 21:11:39 20152default:defaultZ17-206

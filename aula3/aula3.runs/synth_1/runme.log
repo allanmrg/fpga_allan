@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log aula4.vds -m64 -mode batch -messageDb vivado.pb -source aula4.tcl
+    with args -log piscaLed.vds -m64 -mode batch -messageDb vivado.pb -source piscaLed.tcl
 
 
 ****** Vivado v2014.1 (64-bit)
@@ -8,7 +8,7 @@
   **** IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
     ** Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 
-source aula4.tcl
+source piscaLed.tcl
 # set_param gui.test TreeTableDev
 # set_param xicom.use_bs_reader 1
 # set_msg_config -id {HDL 9-1061} -limit 100000
@@ -20,53 +20,58 @@ source aula4.tcl
 # set_property target_language VHDL [current_project]
 # set_param project.compositeFile.enableAutoGeneration 0
 # set_property default_lib xil_defaultlib [current_project]
-# read_vhdl -library xil_defaultlib T:/15.800000105/aula3/aula3.srcs/sources_1/new/aula4.vhd
-# read_xdc T:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc
-# set_property used_in_implementation false [get_files T:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+# read_vhdl -library xil_defaultlib T:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd
+# read_xdc T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc
+# set_property used_in_implementation false [get_files T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
 # set_param synth.vivado.isSynthRun true
-# set_property webtalk.parent_dir T:/15.800000105/aula3/aula3.cache/wt [current_project]
-# set_property parent.project_dir T:/15.800000105/aula3 [current_project]
-# synth_design -top aula4 -part xc7a100tcsg324-1
-Command: synth_design -top aula4 -part xc7a100tcsg324-1
+# set_property webtalk.parent_dir T:/15.800000105/fpga_allan/aula3/aula3.cache/wt [current_project]
+# set_property parent.project_dir T:/15.800000105/fpga_allan/aula3 [current_project]
+# synth_design -top piscaLed -part xc7a100tcsg324-1
+Command: synth_design -top piscaLed -part xc7a100tcsg324-1
 
 Starting synthesis...
 
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 233.391 ; gain = 98.984
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 233.340 ; gain = 97.852
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'aula4' [T:/15.800000105/aula3/aula3.srcs/sources_1/new/aula4.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'aula4' (1#1) [T:/15.800000105/aula3/aula3.srcs/sources_1/new/aula4.vhd:48]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[15]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[14]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[13]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[12]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[11]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[10]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[9]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[8]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[7]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[6]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[5]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[4]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[3]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[2]
-WARNING: [Synth 8-3331] design aula4 has unconnected port clk
-WARNING: [Synth 8-3331] design aula4 has unconnected port btnCpuReset
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[15]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[14]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[13]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[12]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[11]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[10]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[9]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[8]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[7]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[6]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[5]
+INFO: [Synth 8-638] synthesizing module 'piscaLed' [T:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd:41]
+WARNING: [Synth 8-3848] Net sw in module/entity piscaLed does not have driver. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'piscaLed' (1#1) [T:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd:41]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[15]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[14]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[13]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[12]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[11]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[10]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[9]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[8]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[7]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[6]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[5]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[4]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[3]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[2]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[1]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[0]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[15]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[14]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[13]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[12]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[11]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[10]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[9]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[8]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[7]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[6]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[5]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[4]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[3]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[2]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[1]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 267.250 ; gain = 132.844
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 267.203 ; gain = 131.715
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -88,8 +93,8 @@ Loading io standards from C:/Xilinx/Vivado/2014.1/data\./parts/xilinx/artix7/IOS
 Loading device configuration modes from C:/Xilinx/Vivado/2014.1/data\parts/xilinx/artix7/ConfigModes.xml
 
 Processing XDC Constraints
-Parsing XDC File [T:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
-Finished Parsing XDC File [T:/15.800000105/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+Parsing XDC File [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
+Finished Parsing XDC File [T:/15.800000105/fpga_allan/aula3/aula3.srcs/constrs_1/imports/Problemas/io_basico.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -105,7 +110,7 @@ Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 471.328 ; gain = 336.922
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 ---------------------------------------------------------------------------------
 
 
@@ -113,13 +118,14 @@ Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapse
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 471.328 ; gain = 336.922
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished RTL Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 471.328 ; gain = 336.922
+Finished RTL Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 472.008 ; gain = 336.520
 ---------------------------------------------------------------------------------
 
+WARNING: [Synth 8-3848] Net sw in module/entity piscaLed does not have driver. [T:/15.800000105/fpga_allan/aula3/aula3.srcs/sources_1/new/piscaLed.vhd:36]
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -131,8 +137,14 @@ Report RTL Partitions:
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
 +---Muxes : 
-	   3 Input      1 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -142,10 +154,16 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module aula4 
+Module piscaLed 
 Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     27 Bit       Adders := 1     
++---Registers : 
+	               27 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
 +---Muxes : 
-	   3 Input      1 Bit        Muxes := 1     
+	   2 Input     27 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
@@ -165,35 +183,39 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[15]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[14]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[13]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[12]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[11]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[10]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[9]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[8]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[7]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[6]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[5]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[4]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[3]
-WARNING: [Synth 8-3331] design aula4 has unconnected port led[2]
-WARNING: [Synth 8-3331] design aula4 has unconnected port clk
-WARNING: [Synth 8-3331] design aula4 has unconnected port btnCpuReset
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[15]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[14]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[13]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[12]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[11]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[10]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[9]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[8]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[7]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[6]
-WARNING: [Synth 8-3331] design aula4 has unconnected port sw[5]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[15]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[14]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[13]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[12]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[11]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[10]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[9]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[8]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[7]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[6]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[5]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[4]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[3]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[2]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[1]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port sw[0]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[15]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[14]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[13]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[12]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[11]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[10]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[9]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[8]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[7]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[6]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[5]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[4]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[3]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[2]
+WARNING: [Synth 8-3331] design piscaLed has unconnected port led[1]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 542.672 ; gain = 408.266
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 544.023 ; gain = 408.535
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -207,7 +229,7 @@ Finished RAM, DSP and Shift Register Reporting
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+Finished Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 
@@ -219,11 +241,11 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.289 ; gain = 427.883
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 
@@ -231,7 +253,7 @@ Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . M
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 
@@ -255,7 +277,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 
@@ -270,7 +292,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 
@@ -278,7 +300,7 @@ Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
 ---------------------------------------------------------------------------------
@@ -299,28 +321,33 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+------+------+
-|      |Cell  |Count |
-+------+------+------+
-|1     |LUT5  |     1|
-|2     |IBUF  |     5|
-|3     |OBUF  |     2|
-|4     |OBUFT |    14|
-+------+------+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |    27|
+|4     |LUT2   |    29|
+|5     |LUT6   |     6|
+|6     |FDRE   |    28|
+|7     |IBUF   |     2|
+|8     |OBUF   |     1|
+|9     |OBUFT  |    31|
++------+-------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    22|
+|1     |top      |       |   132|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
 ---------------------------------------------------------------------------------
 
-Synthesis finished with 0 errors, 0 critical warnings and 27 warnings.
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 428.082
-INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+Synthesis finished with 0 errors, 0 critical warnings and 32 warnings.
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 437.723
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
 INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
@@ -329,10 +356,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-11 Infos, 54 Warnings, 0 Critical Warnings and 0 Errors encountered.
+11 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 562.488 ; gain = 382.629
-# write_checkpoint aula4.dcp
-# report_utilization -file aula4_utilization_synth.rpt -pb aula4_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 562.488 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 09 22:16:23 2015...
+synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 573.211 ; gain = 393.211
+# write_checkpoint piscaLed.dcp
+# report_utilization -file piscaLed_utilization_synth.rpt -pb piscaLed_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 573.211 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Nov 16 21:11:39 2015...

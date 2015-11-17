@@ -2,9 +2,9 @@
 # Vivado v2014.1 (64-bit)
 # SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
 # IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
-# Start of session at: Mon Nov 09 22:16:00 2015
-# Process ID: 10688
-# Log file: T:/15.800000105/aula3/aula3.runs/synth_1/aula4.vds
-# Journal file: T:/15.800000105/aula3/aula3.runs/synth_1\vivado.jou
+# Start of session at: Mon Nov 16 21:11:15 2015
+# Process ID: 7164
+# Log file: T:/15.800000105/fpga_allan/aula3/aula3.runs/synth_1/piscaLed.vds
+# Journal file: T:/15.800000105/fpga_allan/aula3/aula3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source aula4.tcl
+source piscaLed.tcl
