@@ -1,0 +1,3 @@
+Running: xsim.dir/tb_debounce_behav/xsimk.exe -simmode gui -wdb tb_debounce_behav.wdb -simrunnum 0 -socket 59405
+Design successfully loaded
+Design Loading CPU Usage: 108 ms

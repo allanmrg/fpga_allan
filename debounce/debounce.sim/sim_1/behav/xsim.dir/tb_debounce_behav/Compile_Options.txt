@@ -1,0 +1,1 @@
+--debug "typical" --relax -L "xil_defaultlib" -L "secureip" --snapshot "tb_debounce_behav" --prj "T:/15.800000105/fpga_allan/debounce/debounce.sim/sim_1/behav/tb_debounce.prj" "xil_defaultlib.tb_debounce" 

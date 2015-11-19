@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_debounce_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="tb_debounce" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="5" />
+   <wvobject db_ref_id="1" fp_name="/tb_debounce/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_debounce/btn_in" type="logic">
+      <obj_property name="ElementShortName">btn_in</obj_property>
+      <obj_property name="ObjectShortName">btn_in</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_debounce/btn_out" type="logic">
+      <obj_property name="ElementShortName">btn_out</obj_property>
+      <obj_property name="ObjectShortName">btn_out</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/tb_debounce/half_period" type="other">
+      <obj_property name="ElementShortName">half_period</obj_property>
+      <obj_property name="ObjectShortName">half_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">tst_clk</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/btn_in" type="logic">
+         <obj_property name="ElementShortName">btn_in</obj_property>
+         <obj_property name="ObjectShortName">btn_in</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/btn_out" type="logic">
+         <obj_property name="ElementShortName">btn_out</obj_property>
+         <obj_property name="ObjectShortName">btn_out</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/trans" type="logic">
+         <obj_property name="ElementShortName">trans</obj_property>
+         <obj_property name="ObjectShortName">trans</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/cnt" type="other">
+         <obj_property name="ElementShortName">cnt</obj_property>
+         <obj_property name="ObjectShortName">cnt</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/fclk" type="other">
+         <obj_property name="ElementShortName">fclk</obj_property>
+         <obj_property name="ObjectShortName">fclk</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/tdb" type="other">
+         <obj_property name="ElementShortName">tdb</obj_property>
+         <obj_property name="ObjectShortName">tdb</obj_property>
+      </wvobject>
+      <wvobject db_ref_id="1" fp_name="/tb_debounce/tst_clk/cnt_ms" type="other">
+         <obj_property name="ElementShortName">cnt_ms</obj_property>
+         <obj_property name="ObjectShortName">cnt_ms</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
