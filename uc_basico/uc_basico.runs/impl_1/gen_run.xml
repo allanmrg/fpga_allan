@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1448323416">
+  <File Type="RUN-CONSTRS" Name="$PDATADIR/runs/impl_1/constrs_in.xml"/>
+  <File Type="PWROPT-DCP" Name="toplevel_pwropt.dcp"/>
+  <File Type="RUN-STRAT" Name="$PDATADIR/runs/impl_1/impl_1.psg"/>
+  <File Type="OPT-DRC" Name="toplevel_drc_opted.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="toplevel_timing_summary_routed.pb"/>
+  <File Type="PA-TCL" Name="toplevel.tcl"/>
+  <File Type="OPT-DCP" Name="toplevel_opt.dcp"/>
+  <File Type="PWROPT-DRC" Name="toplevel_drc_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="toplevel_placed.dcp"/>
+  <File Type="PLACE-IO" Name="toplevel_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="toplevel_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="toplevel_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="toplevel_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="toplevel_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="toplevel_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="toplevel_incremental_reuse_pre_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="toplevel_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="toplevel_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="toplevel_drc_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="toplevel_routed.dcp"/>
+  <File Type="ROUTE-DRC" Name="toplevel_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="toplevel_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="toplevel_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="toplevel_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="toplevel_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="toplevel_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="toplevel_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="toplevel_incremental_reuse_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="toplevel_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="toplevel_timing_summary_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="toplevel.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="toplevel_timing_summary_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="toplevel.bit"/>
+  <File Type="BG-BIN" Name="toplevel.bin"/>
+  <File Type="BITSTR-MSK" Name="toplevel.msk"/>
+  <File Type="BITSTR-RBT" Name="toplevel.rbt"/>
+  <File Type="BITSTR-NKY" Name="toplevel.nky"/>
+  <File Type="BITSTR-BMM" Name="toplevel_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="toplevel.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="$PSDKDIR/SDK/SDK_Export/hw/toplevel.sysdef"/>
+  <File Type="BG-BGN" Name="toplevel.bgn"/>
+  <File Type="BG-DRC" Name="toplevel.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Problemas/io_basico.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Logica-Programavel/Aulas/Problemas/io_basico.xdc"/>
+        <Attr Name="ImportTime" Val="1447108539"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
+      <Desc>Vivado Implementation Defaults</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

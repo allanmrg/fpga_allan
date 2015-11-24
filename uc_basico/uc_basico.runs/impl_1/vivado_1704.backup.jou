@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:15:54 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Mon Nov 23 21:02:19 2015
+# Process ID: 5108
+# Log file: T:/15.800000105/fpga_allan/uc_basico/uc_basico.runs/impl_1/toplevel.vdi
+# Journal file: T:/15.800000105/fpga_allan/uc_basico/uc_basico.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source toplevel.tcl -notrace

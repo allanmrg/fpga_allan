@@ -1,0 +1,12 @@
+!SESSION 2015-11-23 21:23:26.111 -----------------------------------------------
+eclipse.buildId=2014.1
+java.version=1.7.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-23 21:31:42.718
+!MESSAGE Indexed 'hello_world_bsp' (41 sources, 76 headers) in 1,17 sec: 1.456 declarations; 5.814 references; 29 unresolved inclusions; 4 syntax errors; 10 unresolved names (0,14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2015-11-23 21:31:42.972
+!MESSAGE Indexed 'hello_world' (2 sources, 27 headers) in 0,22 sec: 1.037 declarations; 1.304 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
