@@ -116,7 +116,7 @@ BEGIN
       C_FAMILY => "artix7",
       C_EXT_RST_WIDTH => 4,
       C_AUX_RST_WIDTH => 4,
-      C_EXT_RESET_HIGH => '1',
+      C_EXT_RESET_HIGH => '0',
       C_AUX_RESET_HIGH => '0',
       C_NUM_BUS_RST => 1,
       C_NUM_PERP_RST => 1,

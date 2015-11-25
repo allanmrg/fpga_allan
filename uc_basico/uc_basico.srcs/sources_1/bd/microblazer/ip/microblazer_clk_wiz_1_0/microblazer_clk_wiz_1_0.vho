@@ -71,7 +71,7 @@ port
   -- Clock out ports
   clk_out1          : out    std_logic;
   -- Status and control signals
-  reset             : in     std_logic;
+  resetn             : in     std_logic;
   locked            : out    std_logic
  );
 end component;
@@ -81,7 +81,7 @@ ATTRIBUTE SYN_BLACK_BOX OF microblazer_clk_wiz_1_0 : COMPONENT IS TRUE;
 
 
 ATTRIBUTE BLACK_BOX_PAD_PIN : STRING;
-ATTRIBUTE BLACK_BOX_PAD_PIN OF microblazer_clk_wiz_1_0 : COMPONENT IS "clk_in1,clk_out1,reset,locked";
+ATTRIBUTE BLACK_BOX_PAD_PIN OF microblazer_clk_wiz_1_0 : COMPONENT IS "clk_in1,clk_out1,resetn,locked";
 
 -- COMP_TAG_END ------ End COMPONENT Declaration ------------
 -- The following code must appear in the VHDL architecture
@@ -95,7 +95,7 @@ your_instance_name : microblazer_clk_wiz_1_0
   -- Clock out ports  
    clk_out1 => clk_out1,
   -- Status and control signals                
-   reset => reset,
+   resetn => resetn,
    locked => locked            
  );
 -- INST_TAG_END ------ End INSTANTIATION Template ------------

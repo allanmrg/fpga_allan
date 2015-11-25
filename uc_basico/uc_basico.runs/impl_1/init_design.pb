@@ -103,10 +103,10 @@ $Parsing XDC File [%s] for cell '%s'
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2 
 get_clocks: 2default:default2
-00:00:122default:default2
-00:00:122default:default2
-899.3282default:default2
-420.0862default:defaultZ17-268
+00:00:132default:default2
+00:00:132default:default2
+899.0552default:default2
+420.7032default:defaultZ17-268
 å
 -Finished Parsing XDC File [%s] for cell '%s'
 847*designutils2è
@@ -213,9 +213,9 @@ l
 6Generating merged BMM file for the design top '%s'...
 58*memdata2
 toplevel2default:defaultZ28-58
-Å
-MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2ò
-Ét:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf 2default:defaultZ28-144
+‡
+MSuccessfully populated the BRAM INIT strings from the following elf files: %s96*memdata2x
+dT:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf 2default:defaultZ28-144
 „
 !Unisim Transformation Summary:
 %s111*project2¶
@@ -227,10 +227,10 @@ MSuccessfully populated the BRAM INIT strings from the following elf files: %s
 I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2!
 link_design: 2default:default2
-00:00:182default:default2
-00:00:182default:default2
-910.2152default:default2
-722.2422default:defaultZ17-268
+00:00:192default:default2
+00:00:192default:default2
+909.4102default:default2
+721.9102default:defaultZ17-268
 
 
 End Record

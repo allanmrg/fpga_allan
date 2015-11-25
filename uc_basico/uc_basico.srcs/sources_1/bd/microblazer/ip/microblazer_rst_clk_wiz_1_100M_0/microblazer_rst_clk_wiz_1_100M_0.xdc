@@ -48,8 +48,8 @@
 # design_1_i/proc_sys_reset_1/U0/EXT_LPF/ACTIVE_HIGH_EXT.exr_d1_reg_srl1/D
 
 # 
-#         set_false_path -through  [get_nets *ext_reset_in]
-# 	#set_false_path -through [get_pins ext_reset_in]
+#      set_false_path -through [get_nets *ext_reset_in]
+#     #set_false_path -through [get_pins ext_reset_in]
 # 
 
 set_false_path -through [get_ports ext_reset_in]

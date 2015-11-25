@@ -30,7 +30,7 @@ Starting synthesis...
 xc7a100t2default:defaultZ17-349
 ú
 %s*synth2å
-xStarting RTL Elaboration : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 285.027 ; gain = 149.691
+xStarting RTL Elaboration : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 284.141 ; gain = 149.324
 2default:default
 —
 synthesizing module '%s'638*oasys2
@@ -45,12 +45,12 @@ hT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hd
 u12default:default2'
 microblazer_wrapper2default:default2d
 NT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd2default:default2
-702default:default8@Z8-3491
+692default:default8@Z8-3491
 ˆ
 synthesizing module '%s'638*oasys2'
 microblazer_wrapper2default:default2~
 hT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer_wrapper.vhd2default:default2
-232default:default8@Z8-638
+242default:default8@Z8-638
 Ù
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2
 microblazer2default:default2t
@@ -59,24 +59,24 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 microblazer_i2default:default2
 microblazer2default:default2~
 hT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer_wrapper.vhd2default:default2
-332default:default8@Z8-3491
+352default:default8@Z8-3491
 Ë
 synthesizing module '%s'638*oasys2
 microblazer2default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-16432default:default8@Z8-638
+16442default:default8@Z8-638
 ç
 ,binding component instance '%s' to cell '%s'113*oasys2
 GND2default:default2
 GND2default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19242default:default8@Z8-113
+19272default:default8@Z8-113
 ç
 ,binding component instance '%s' to cell '%s'113*oasys2
 VCC2default:default2
 VCC2default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19282default:default8@Z8-113
+19312default:default8@Z8-113
 ≤
 Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'3392*oasys2,
 microblazer_axi_gpio_0_02default:default2†
@@ -85,7 +85,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 axi_gpio_LED2default:default2,
 microblazer_axi_gpio_0_02default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19322default:default8@Z8-3491
+19352default:default8@Z8-3491
 †
 synthesizing module '%s'638*oasys2,
 microblazer_axi_gpio_0_02default:default2¢
@@ -633,7 +633,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 axi_gpio_SW2default:default2,
 microblazer_axi_gpio_0_12default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19552default:default8@Z8-3491
+19582default:default8@Z8-3491
 †
 synthesizing module '%s'638*oasys2,
 microblazer_axi_gpio_0_12default:default2¢
@@ -795,7 +795,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 	clk_wiz_12default:default2+
 microblazer_clk_wiz_1_02default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19782default:default8@Z8-3491
+19812default:default8@Z8-3491
 ó
 synthesizing module '%s'638*oasys2+
 microblazer_clk_wiz_1_02default:default2ö
@@ -1074,7 +1074,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 mdm_12default:default2'
 microblazer_mdm_1_02default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-19852default:default8@Z8-3491
+19882default:default8@Z8-3491
 ë
 synthesizing module '%s'638*oasys2'
 microblazer_mdm_1_02default:default2ò
@@ -2162,7 +2162,7 @@ Hmodule '%s' declared at '%s:%s' bound to instance '%s' of component '%s'339
 microblaze_02default:default2.
 microblazer_microblaze_0_02default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-20172default:default8@Z8-3491
+20202default:default8@Z8-3491
 ß
 synthesizing module '%s'638*oasys2.
 microblazer_microblaze_0_02default:default2¶
@@ -18751,7 +18751,7 @@ X
 2default:default
 O
 %s*synth2@
-,	Parameter C_EXT_RESET_HIGH bound to: 1'b1 
+,	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 2default:default
 O
 %s*synth2@
@@ -18792,7 +18792,7 @@ X
 2default:default
 O
 %s*synth2@
-,	Parameter C_EXT_RESET_HIGH bound to: 1'b1 
+,	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 2default:default
 O
 %s*synth2@
@@ -18829,7 +18829,7 @@ C	Parameter C_NUM_INTERCONNECT_ARESETN bound to: 1 - type: integer
 2default:default
 O
 %s*synth2@
-,	Parameter C_EXT_RESET_HIGH bound to: 1'b1 
+,	Parameter C_EXT_RESET_HIGH bound to: 1'b0 
 2default:default
 O
 %s*synth2@
@@ -18906,14 +18906,14 @@ R
 902default:default2
 12default:default2v
 `T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer.vhd2default:default2
-16432default:default8@Z8-256
+16442default:default8@Z8-256
 ≤
 %done synthesizing module '%s' (%s#%s)256*oasys2'
 microblazer_wrapper2default:default2
 912default:default2
 12default:default2~
 hT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/hdl/microblazer_wrapper.vhd2default:default2
-232default:default8@Z8-256
+242default:default8@Z8-256
 —
 synthesizing module '%s'638*oasys2
 debounce2default:default2d
@@ -18958,7 +18958,7 @@ NT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd
 412default:default8@Z8-256
 ú
 %s*synth2å
-xFinished RTL Elaboration : Time (s): cpu = 00:01:37 ; elapsed = 00:01:42 . Memory (MB): peak = 542.203 ; gain = 406.867
+xFinished RTL Elaboration : Time (s): cpu = 00:01:36 ; elapsed = 00:01:42 . Memory (MB): peak = 542.004 ; gain = 407.188
 2default:default
 ;
 %s*synth2,
@@ -19041,6 +19041,13 @@ I+------+------------------+-------+---------+-------+------------------+
 DINB[8]2default:default2°
 ät:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/ipshared/xilinx.com/blk_mem_gen_v8_2/f2a44852/hdl/blk_mem_gen_prim_width.vhd2default:default2
 10562default:default8@Z8-3295
+˚
+'tying undriven pin %s:%s to constant 0
+3295*oasys2
+u12default:default2
+	reset_rtl2default:default2d
+NT:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/new/toplevel.vhd2default:default2
+692default:default8@Z8-3295
 ^
 -Analyzing %s Unisim elements for replacement
 17*netlist2
@@ -19257,15 +19264,15 @@ JT:/15.800000105/fpga_allan/uc_basico/uc_basico.runs/synth_1/dont_touch.xdc2def
 2default:defaultZ1-111
 ±
 %s*synth2°
-åFinished Loading Part and Timing Information : Time (s): cpu = 00:01:48 ; elapsed = 00:01:54 . Memory (MB): peak = 649.840 ; gain = 514.504
+åFinished Loading Part and Timing Information : Time (s): cpu = 00:01:48 ; elapsed = 00:01:54 . Memory (MB): peak = 648.715 ; gain = 513.898
 2default:default
 µ
 %s*synth2•
-êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 649.840 ; gain = 514.504
+êFinished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 648.715 ; gain = 513.898
 2default:default
 ù
 %s*synth2ç
-yFinished RTL Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 649.840 ; gain = 514.504
+yFinished RTL Optimization : Time (s): cpu = 00:01:49 ; elapsed = 00:01:54 . Memory (MB): peak = 648.715 ; gain = 513.898
 2default:default
 ø
 merging register '%s' into '%s'3619*oasys2"
@@ -19544,11 +19551,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   2 Input      8 Bit        Muxes := 12    
+.	   3 Input      8 Bit        Muxes := 1     
 2default:default
 Q
 %s*synth2B
-.	   3 Input      8 Bit        Muxes := 1     
+.	   2 Input      8 Bit        Muxes := 12    
 2default:default
 Q
 %s*synth2B
@@ -19572,27 +19579,11 @@ Q
 2default:default
 Q
 %s*synth2B
-.	   4 Input      2 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
 .	   2 Input      2 Bit        Muxes := 15    
 2default:default
 Q
 %s*synth2B
-.	   7 Input      1 Bit        Muxes := 6     
-2default:default
-Q
-%s*synth2B
-.	  16 Input      1 Bit        Muxes := 1     
-2default:default
-Q
-%s*synth2B
-.	   4 Input      1 Bit        Muxes := 3     
-2default:default
-Q
-%s*synth2B
-.	   3 Input      1 Bit        Muxes := 1     
+.	   4 Input      2 Bit        Muxes := 3     
 2default:default
 Q
 %s*synth2B
@@ -19600,7 +19591,23 @@ Q
 2default:default
 Q
 %s*synth2B
+.	  16 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   3 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   7 Input      1 Bit        Muxes := 6     
+2default:default
+Q
+%s*synth2B
 .	  10 Input      1 Bit        Muxes := 1     
+2default:default
+Q
+%s*synth2B
+.	   4 Input      1 Bit        Muxes := 3     
 2default:default
 ®
 -Detected potentially large (wide) register %s3414*oasys2$
@@ -21943,7 +21950,7 @@ R\inst/gen_sasd.crossbar_sasd_0/addr_arbiter_inst/gen_no_arbiter.m_amesg_i_reg[4
 1002default:defaultZ17-14
 ©
 %s*synth2ô
-ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:02 ; elapsed = 00:02:05 . Memory (MB): peak = 671.703 ; gain = 536.367
+ÑFinished Cross Boundary Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:06 . Memory (MB): peak = 669.879 ; gain = 535.063
 2default:default
 ¢
 %s*synth2í
@@ -22247,462 +22254,9 @@ R-------------------------------------------------------------------------------
 2default:default
 û
 %s*synth2é
-zFinished Area Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:07 . Memory (MB): peak = 700.898 ; gain = 565.563
+zFinished Area Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:09 . Memory (MB): peak = 699.164 ; gain = 564.348
 2default:default
 ≠
 %s*synth2ù
-àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:08 . Memory (MB): peak = 700.898 ; gain = 565.563
+àFinished Applying XDC Timing Constraints : Time (s): cpu = 00:02:07 ; elapsed = 00:02:09 . Memory (MB): peak = 699.164 ; gain = 564.348
 2default:default
-†
-%s*synth2ê
-|Finished Timing Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:09 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-ü
-%s*synth2è
-{Finished Technology Mapping : Time (s): cpu = 00:02:08 ; elapsed = 00:02:11 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-ô
-%s*synth2â
-uFinished IO Insertion : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-;
-%s*synth2,
-
-Report Check Netlist: 
-2default:default
-l
-%s*synth2]
-I+------+------------------+-------+---------+-------+------------------+
-2default:default
-l
-%s*synth2]
-I|      |Item              |Errors |Warnings |Status |Description       |
-2default:default
-l
-%s*synth2]
-I+------+------------------+-------+---------+-------+------------------+
-2default:default
-l
-%s*synth2]
-I|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
-2default:default
-l
-%s*synth2]
-I+------+------------------+-------+---------+-------+------------------+
-2default:default
-™
-%s*synth2ö
-ÖFinished Renaming Generated Instances : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-ß
-%s*synth2ó
-ÇFinished Rebuilding User Hierarchy : Time (s): cpu = 00:02:09 ; elapsed = 00:02:12 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-¢
-%s*synth2í
-~---------------------------------------------------------------------------------
-Start RAM, DSP and Shift Register Reporting
-2default:default
-u
-%s*synth2f
-R---------------------------------------------------------------------------------
-2default:default
-¶
-%s*synth2ñ
-Å---------------------------------------------------------------------------------
-Finished RAM, DSP and Shift Register Reporting
-2default:default
-u
-%s*synth2f
-R---------------------------------------------------------------------------------
-2default:default
-8
-%s*synth2)
-
-Report BlackBoxes: 
-2default:default
-A
-%s*synth22
-+-+--------------+----------+
-2default:default
-A
-%s*synth22
-| |BlackBox name |Instances |
-2default:default
-A
-%s*synth22
-+-+--------------+----------+
-2default:default
-A
-%s*synth22
-+-+--------------+----------+
-2default:default
-8
-%s*synth2)
-
-Report Cell Usage: 
-2default:default
-?
-%s*synth20
-+------+-----------+------+
-2default:default
-?
-%s*synth20
-|      |Cell       |Count |
-2default:default
-?
-%s*synth20
-+------+-----------+------+
-2default:default
-?
-%s*synth20
-|1     |BSCANE2    |     1|
-2default:default
-?
-%s*synth20
-|2     |BUFG       |     4|
-2default:default
-?
-%s*synth20
-|3     |GND        |     2|
-2default:default
-?
-%s*synth20
-|4     |INV        |     1|
-2default:default
-?
-%s*synth20
-|5     |LUT1       |    25|
-2default:default
-?
-%s*synth20
-|6     |LUT2       |   501|
-2default:default
-?
-%s*synth20
-|7     |LUT3       |   175|
-2default:default
-?
-%s*synth20
-|8     |LUT4       |   327|
-2default:default
-?
-%s*synth20
-|9     |LUT5       |   256|
-2default:default
-?
-%s*synth20
-|10    |LUT6       |   377|
-2default:default
-?
-%s*synth20
-|11    |LUT6_2     |    97|
-2default:default
-?
-%s*synth20
-|12    |MMCME2_ADV |     1|
-2default:default
-?
-%s*synth20
-|13    |MULT_AND   |     3|
-2default:default
-?
-%s*synth20
-|14    |MUXCY_L    |    92|
-2default:default
-?
-%s*synth20
-|15    |MUXF5      |    32|
-2default:default
-?
-%s*synth20
-|16    |MUXF7      |     3|
-2default:default
-?
-%s*synth20
-|17    |MUXF8      |     1|
-2default:default
-?
-%s*synth20
-|18    |RAM32X1D   |    64|
-2default:default
-?
-%s*synth20
-|19    |RAMB36E1   |     2|
-2default:default
-?
-%s*synth20
-|20    |SRL16      |     1|
-2default:default
-?
-%s*synth20
-|21    |SRL16E     |    98|
-2default:default
-?
-%s*synth20
-|22    |VCC        |     1|
-2default:default
-?
-%s*synth20
-|23    |XORCY      |    75|
-2default:default
-?
-%s*synth20
-|24    |FD         |    32|
-2default:default
-?
-%s*synth20
-|25    |FDCE       |   212|
-2default:default
-?
-%s*synth20
-|26    |FDC_1      |     1|
-2default:default
-?
-%s*synth20
-|27    |FDE        |    64|
-2default:default
-?
-%s*synth20
-|28    |FDPE       |     5|
-2default:default
-?
-%s*synth20
-|29    |FDR        |     1|
-2default:default
-?
-%s*synth20
-|30    |FDRE       |  5298|
-2default:default
-?
-%s*synth20
-|31    |FDRE_1     |     1|
-2default:default
-?
-%s*synth20
-|32    |FDS        |     5|
-2default:default
-?
-%s*synth20
-|33    |FDSE       |    71|
-2default:default
-?
-%s*synth20
-|34    |IBUF       |    18|
-2default:default
-?
-%s*synth20
-|35    |OBUF       |    16|
-2default:default
-?
-%s*synth20
-+------+-----------+------+
-2default:default
-<
-%s*synth2-
-
-Report Instance Areas: 
-2default:default
-ê
-%s*synth2Ä
-l+------+----------------------------------------------------+--------------------------------------+------+
-2default:default
-ê
-%s*synth2Ä
-l|      |Instance                                            |Module                                |Cells |
-2default:default
-ê
-%s*synth2Ä
-l+------+----------------------------------------------------+--------------------------------------+------+
-2default:default
-ê
-%s*synth2Ä
-l|1     |top                                                 |                                      |  7863|
-2default:default
-ê
-%s*synth2Ä
-l|2     |  u1                                                |microblazer_wrapper                   |  7830|
-2default:default
-ê
-%s*synth2Ä
-l|3     |    microblazer_i                                   |microblazer                           |  7829|
-2default:default
-ê
-%s*synth2Ä
-l|4     |      axi_gpio_LED                                  |microblazer_axi_gpio_0_0              |   232|
-2default:default
-ê
-%s*synth2Ä
-l|5     |        U0                                          |axi_gpio__parameterized0              |   232|
-2default:default
-ê
-%s*synth2Ä
-l|6     |          \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3  |cdc_sync__1                           |    64|
-2default:default
-ê
-%s*synth2Ä
-l|7     |      axi_gpio_SW                                   |microblazer_axi_gpio_0_1              |   232|
-2default:default
-ê
-%s*synth2Ä
-l|8     |        U0                                          |axi_gpio__parameterized2              |   232|
-2default:default
-ê
-%s*synth2Ä
-l|9     |          \gpio_core_1/Not_Dual.INPUT_DOUBLE_REGS3  |cdc_sync                              |    64|
-2default:default
-ê
-%s*synth2Ä
-l|10    |      clk_wiz_1                                     |microblazer_clk_wiz_1_0               |     4|
-2default:default
-ê
-%s*synth2Ä
-l|11    |        U0                                          |microblazer_clk_wiz_1_0_clk_wiz       |     4|
-2default:default
-ê
-%s*synth2Ä
-l|12    |      mdm_1                                         |microblazer_mdm_1_0                   |   382|
-2default:default
-ê
-%s*synth2Ä
-l|13    |        U0                                          |MDM__parameterized0                   |   382|
-2default:default
-ê
-%s*synth2Ä
-l|14    |      microblaze_0                                  |microblazer_microblaze_0_0            |  6582|
-2default:default
-ê
-%s*synth2Ä
-l|15    |        U0                                          |MicroBlaze__parameterized0            |  6582|
-2default:default
-ê
-%s*synth2Ä
-l|16    |      microblaze_0_axi_periph                       |microblazer_microblaze_0_axi_periph_0 |   311|
-2default:default
-ê
-%s*synth2Ä
-l|17    |        xbar                                        |microblazer_xbar_0                    |   311|
-2default:default
-ê
-%s*synth2Ä
-l|18    |      rst_clk_wiz_1_100M                            |microblazer_rst_clk_wiz_1_100M_0      |    64|
-2default:default
-ê
-%s*synth2Ä
-l|19    |      microblaze_0_local_memory                     |microblaze_0_local_memory_imp_Z0DGSF  |    20|
-2default:default
-ê
-%s*synth2Ä
-l|20    |        dlmb_bram_if_cntlr                          |microblazer_dlmb_bram_if_cntlr_0      |     8|
-2default:default
-ê
-%s*synth2Ä
-l|21    |        dlmb_v10                                    |microblazer_dlmb_v10_0                |     1|
-2default:default
-ê
-%s*synth2Ä
-l|22    |          U0                                        |lmb_v10__parameterized0__1            |     1|
-2default:default
-ê
-%s*synth2Ä
-l|23    |        ilmb_bram_if_cntlr                          |microblazer_ilmb_bram_if_cntlr_0      |     7|
-2default:default
-ê
-%s*synth2Ä
-l|24    |        ilmb_v10                                    |microblazer_ilmb_v10_0                |     1|
-2default:default
-ê
-%s*synth2Ä
-l|25    |          U0                                        |lmb_v10__parameterized0               |     1|
-2default:default
-ê
-%s*synth2Ä
-l|26    |        lmb_bram                                    |microblazer_lmb_bram_0                |     2|
-2default:default
-ê
-%s*synth2Ä
-l+------+----------------------------------------------------+--------------------------------------+------+
-2default:default
-¶
-%s*synth2ñ
-ÅFinished Writing Synthesis Report : Time (s): cpu = 00:02:10 ; elapsed = 00:02:12 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-k
-%s*synth2\
-HSynthesis finished with 0 errors, 0 critical warnings and 393 warnings.
-2default:default
-£
-%s*synth2ì
-Synthesis Optimization Complete : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 700.898 ; gain = 565.563
-2default:default
-^
--Analyzing %s Unisim elements for replacement
-17*netlist2
-4142default:defaultZ29-17
-a
-2Unisim Transformation completed in %s CPU seconds
-28*netlist2
-02default:defaultZ29-28
-ß
-æNetlist '%s' is not ideal for floorplanning, since the cellview '%s' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
-310*netlist2
-toplevel2default:default2.
-MicroBlaze__parameterized02default:defaultZ29-101
-^
-1Inserted %s IBUFs to IO ports without IO buffers.100*opt2
-02default:defaultZ31-140
-^
-1Inserted %s OBUFs to IO ports without IO buffers.101*opt2
-02default:defaultZ31-141
-D
-Pushed %s inverter(s).
-98*opt2
-122default:defaultZ31-138
-∂
-!Unisim Transformation Summary:
-%s111*project2˘
-‰  A total of 328 instances were transformed.
-  (MUXCY,XORCY) => CARRY4: 27 instances
-  FD => FDRE: 32 instances
-  FDC_1 => FDCE (inverted pins: C): 1 instances
-  FDE => FDRE: 64 instances
-  FDR => FDRE: 1 instances
-  FDRE_1 => FDRE (inverted pins: C): 1 instances
-  FDS => FDSE: 5 instances
-  LUT6_2 => LUT6_2 (LUT5, LUT6): 97 instances
-  MULT_AND => LUT2: 3 instances
-  MUXF5 => LUT3: 32 instances
-  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 64 instances
-  SRL16 => SRL16E: 1 instances
-2default:defaultZ1-111
-L
-Releasing license: %s
-83*common2
-	Synthesis2default:defaultZ17-83
-ø
-G%s Infos, %s Warnings, %s Critical Warnings and %s Errors encountered.
-28*	vivadotcl2
-6232default:default2
-192default:default2
-02default:default2
-02default:defaultZ4-41
-U
-%s completed successfully
-29*	vivadotcl2 
-synth_design2default:defaultZ4-42
-¸
-I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
-268*common2"
-synth_design: 2default:default2
-00:02:092default:default2
-00:02:112default:default2
-700.8982default:default2
-465.2112default:defaultZ17-268
-
-sreport_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 700.898 ; gain = 0.000
-*common
-w
-Exiting %s at %s...
-206*common2
-Vivado2default:default2,
-Mon Nov 23 22:05:54 20152default:defaultZ17-206

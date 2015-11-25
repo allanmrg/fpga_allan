@@ -1,7 +1,7 @@
 --Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2014.1 (win64) Build 881834 Fri Apr  4 14:15:54 MDT 2014
---Date        : Mon Nov 23 20:19:34 2015
+--Date        : Wed Nov 25 21:37:28 2015
 --Host        : J309-B3 running 64-bit Service Pack 1  (build 7601)
 --Command     : generate_target microblazer.bd
 --Design      : microblazer
@@ -1634,10 +1634,11 @@ entity microblazer is
     GPIO_LED_tri_o : out STD_LOGIC_VECTOR ( 15 downto 0 );
     GPIO_SW_tri_i : in STD_LOGIC_VECTOR ( 15 downto 0 );
     clk_in1 : in STD_LOGIC;
-    reset : in STD_LOGIC
+    reset : in STD_LOGIC;
+    reset_rtl : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of microblazer : entity is "microblazer,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VHDL,numBlks=18,numReposBlks=12,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=1,da_axi4_cnt=4,da_board_cnt=3,da_mb_cnt=1}";
+  attribute CORE_GENERATION_INFO of microblazer : entity is "microblazer,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLanguage=VHDL,numBlks=18,numReposBlks=12,numNonXlnxBlks=0,numHierBlks=6,maxHierDepth=1,da_axi4_cnt=4,da_board_cnt=4,da_mb_cnt=1}";
 end microblazer;
 
 architecture STRUCTURE of microblazer is
@@ -1733,7 +1734,7 @@ architecture STRUCTURE of microblazer is
   port (
     clk_in1 : in STD_LOGIC;
     clk_out1 : out STD_LOGIC;
-    reset : in STD_LOGIC;
+    resetn : in STD_LOGIC;
     locked : out STD_LOGIC
   );
   end component microblazer_clk_wiz_1_0;
@@ -1905,6 +1906,7 @@ architecture STRUCTURE of microblazer is
   signal microblaze_0_mdm_axi_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal microblaze_0_mdm_axi_WVALID : STD_LOGIC;
   signal reset_1 : STD_LOGIC;
+  signal reset_rtl_1 : STD_LOGIC;
   signal rst_clk_wiz_1_100M_bus_struct_reset : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_1_100M_interconnect_aresetn : STD_LOGIC_VECTOR ( 0 to 0 );
   signal rst_clk_wiz_1_100M_mb_reset : STD_LOGIC;
@@ -1921,6 +1923,7 @@ begin
   axi_gpio_SW_GPIO_TRI_I(15 downto 0) <= GPIO_SW_tri_i(15 downto 0);
   clk_in1_1 <= clk_in1;
   reset_1 <= reset;
+  reset_rtl_1 <= reset_rtl;
 GND: unisim.vcomponents.GND
     port map (
       G => GND_1
@@ -1980,7 +1983,7 @@ clk_wiz_1: component microblazer_clk_wiz_1_0
       clk_in1 => clk_in1_1,
       clk_out1 => microblaze_0_Clk,
       locked => clk_wiz_1_locked,
-      reset => reset_1
+      resetn => reset_1
     );
 mdm_1: component microblazer_mdm_1_0
     port map (
@@ -2211,7 +2214,7 @@ rst_clk_wiz_1_100M: component microblazer_rst_clk_wiz_1_100M_0
       aux_reset_in => VCC_1,
       bus_struct_reset(0) => rst_clk_wiz_1_100M_bus_struct_reset(0),
       dcm_locked => clk_wiz_1_locked,
-      ext_reset_in => reset_1,
+      ext_reset_in => reset_rtl_1,
       interconnect_aresetn(0) => rst_clk_wiz_1_100M_interconnect_aresetn(0),
       mb_debug_sys_rst => mdm_1_debug_sys_rst,
       mb_reset => rst_clk_wiz_1_100M_mb_reset,

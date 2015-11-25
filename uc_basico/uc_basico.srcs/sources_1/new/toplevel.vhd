@@ -63,8 +63,7 @@ signal sw_internal  : std_logic_vector(15 downto 0);
 
 begin
 
--- Rst interno é borda de subida, rst externo é borda de descida!
-rst_interno <= not btnCpuReset;
+rst_interno <= btnCpuReset;
 
 
 u1 : microblazer_wrapper 

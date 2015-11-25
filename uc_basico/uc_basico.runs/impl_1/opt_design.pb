@@ -39,7 +39,7 @@ BPlease refer to the DRC report (report_drc) for more information.
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.218 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 X
 
 Starting %s Task
@@ -57,19 +57,19 @@ Phase %s%s
 C
 Pushed %s inverter(s).
 98*opt2
-32default:defaultZ31-138
+22default:defaultZ31-138
 B
 Retargeted %s cell(s).
 49*opt2
 02default:defaultZ31-49
 3
-'Phase 1 Retarget | Checksum: 21e819664
+'Phase 1 Retarget | Checksum: 1d30c3cbf
 *common
 ‰
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.407 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.437 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 l
 
 Phase %s%s
@@ -85,13 +85,13 @@ B
 10*opt2
 2802default:defaultZ31-10
 ?
-3Phase 2 Constant Propagation | Checksum: 19d7fcb70
+3Phase 2 Constant Propagation | Checksum: 1f56daed5
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 ]
 
 Phase %s%s
@@ -107,26 +107,26 @@ O
 11*opt2
 48952default:defaultZ31-11
 0
-$Phase 3 Sweep | Checksum: 2b5706fb8
+$Phase 3 Sweep | Checksum: 211a9faec
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 A
-5Ending Logic Optimization Task | Checksum: 2b5706fb8
+5Ending Logic Optimization Task | Checksum: 211a9faec
 *common
 …
 
 %s
 *constraints2n
-ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+ZTime (s): cpu = 00:00:00 ; elapsed = 00:00:03 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 8
-,Implement Debug Cores | Checksum: 208a3cc27
+,Implement Debug Cores | Checksum: 21ab58fb6
 *common
 5
-)Logic Optimization | Checksum: 208a3cc27
+)Logic Optimization | Checksum: 21ab58fb6
 *common
 X
 
@@ -142,13 +142,13 @@ Starting %s Task
 %Done setting XDC timing constraints.
 35*timingZ38-35
 D
-8Ending PowerOpt TimerUpdates Task | Checksum: 2b5706fb8
+8Ending PowerOpt TimerUpdates Task | Checksum: 211a9faec
 *common
 ‰
 
 %s
 *constraints2r
-^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.203 . Memory (MB): peak = 910.215 ; gain = 0.0002default:default
+^Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.202 . Memory (MB): peak = 909.410 ; gain = 0.0002default:default
 4
 Applying IDT optimizations ...
 9*pwroptZ34-9
@@ -175,13 +175,13 @@ CNumber of BRAM Ports augmented: %s newly gated: %s Total Ports: %s
 02default:default2
 42default:defaultZ34-65
 A
-5Ending Power Optimization Task | Checksum: 2b5706fb8
+5Ending Power Optimization Task | Checksum: 211a9faec
 *common
 †
 
 %s
 *constraints2o
-[Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 981.734 ; gain = 71.5202default:default
+[Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 982.125 ; gain = 72.7152default:default
 Q
 Releasing license: %s
 83*common2"
@@ -212,8 +212,8 @@ I%sTime (s): cpu = %s ; elapsed = %s . Memory (MB): peak = %s ; gain = %s
 268*common2)
 Write XDEF Complete: 2default:default2
 00:00:002default:default2 
-00:00:00.1182default:default2
-981.7342default:default2
+00:00:00.1242default:default2
+982.1252default:default2
 0.0002default:defaultZ17-268
 
 

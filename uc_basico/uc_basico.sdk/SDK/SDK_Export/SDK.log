@@ -1,1 +1,174 @@
 21:23:33 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+19:56:59 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+19:57:00 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+19:57:00 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+19:57:00 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+19:57:00 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+19:57:01 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:57:27 INFO  : 
+19:57:28 INFO  : Updating hardware inferred compiler options for hello_world.
+19:57:28 INFO  : Clearing existing target manager status.
+19:57:31 INFO  : Closing and re-opening the MSS file of ther project hello_world_bsp
+19:57:31 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:02:57 INFO  : FPGA configured successfully with bitstream "T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:07:49 INFO  : Processor reset is completed for microblaze_0
+20:07:49 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000004
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:19:44 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:20:03 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+20:20:05 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+20:20:05 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+20:20:24 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+20:20:24 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+20:20:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:20:44 INFO  : 
+20:20:45 INFO  : Updating hardware inferred compiler options for hello_world.
+20:20:45 INFO  : Clearing existing target manager status.
+20:21:05 INFO  : FPGA configured successfully with bitstream "T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:21:45 INFO  : System reset is completed.
+20:21:45 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000004
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+20:23:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:25:49 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+20:25:51 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+20:25:51 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+20:25:51 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+20:25:51 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+20:26:11 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:26:12 INFO  : 
+20:26:13 INFO  : Updating hardware inferred compiler options for hello_world.
+20:26:13 INFO  : Clearing existing target manager status.
+20:27:20 INFO  : System reset is completed.
+20:28:35 INFO  : microblaze_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+20:37:27 INFO  : System reset is completed.
+20:37:48 INFO  : Processor reset is completed for microblaze_0
+20:39:05 INFO  : FPGA configured successfully with bitstream "T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw_platform_0/download.bit"
+20:39:57 INFO  : Processor reset is completed for microblaze_0
+20:39:57 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000004
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:06:23 INFO  : FPGA Cable Disconnected. All active launches will be terminated.
+21:13:25 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:13:48 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:13:52 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:13:52 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+21:13:54 INFO  : Updating .bit and .bmm files from XPS's export folder.
+21:14:15 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+21:14:15 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+21:14:34 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:14:35 INFO  : 
+21:14:36 INFO  : Updating hardware inferred compiler options for hello_world.
+21:14:36 INFO  : Clearing existing target manager status.
+21:14:54 INFO  : System reset is completed.
+21:14:54 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000084
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:17:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:17:40 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:17:41 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:17:41 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+21:17:41 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+21:17:41 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+21:17:41 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:17:42 INFO  : 
+21:17:43 INFO  : Updating hardware inferred compiler options for hello_world.
+21:17:43 INFO  : Clearing existing target manager status.
+21:18:24 INFO  : System reset is completed.
+21:18:24 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000084
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:20:57 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+21:21:21 INFO  : Processing command line option -hwspec T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:21:22 INFO  : The hardware specification for project 'hw_platform_0' is different from T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml.
+21:21:22 INFO  : Copied contents of T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hw/microblazer.xml into \hw_platform_0\system.xml.
+21:21:23 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel.bit into \hw_platform_0\toplevel.bit.
+21:21:23 INFO  : Copied contents of T:\15.800000105\fpga_allan\uc_basico\uc_basico.sdk\SDK\SDK_Export\hw\toplevel_bd.bmm into \hw_platform_0\toplevel_bd.bmm.
+21:21:42 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:21:43 INFO  : 
+21:21:44 INFO  : Updating hardware inferred compiler options for hello_world.
+21:21:44 INFO  : Clearing existing target manager status.
+21:22:50 INFO  : System reset is completed.
+21:22:50 ERROR : Unexpected error while launching program.
+java.lang.RuntimeException: Debug Operation Not Supported on the Target, Current Processor State is not "Stopped"
+MicroBlaze Pipeline Stalled on a Blocking Instruction or Invalid Bus Access
+    Stalled PC: 0x00000080
+    Try Resetting the Processor to Continue..
+
+	at com.xilinx.sdk.targetmanager.internal.TM.downloadELF(TM.java:731)
+	at com.xilinx.sdk.debug.core.internal.AppRunner.run(AppRunner.java:129)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.runApplication(XilinxAppLaunchConfigurationDelegate.java:537)
+	at com.xilinx.sdk.debug.core.XilinxAppLaunchConfigurationDelegate.launch(XilinxAppLaunchConfigurationDelegate.java:251)
+	at com.xilinx.sdk.debug.ui.XilinxAppLaunchDelegateWrapper.launch(XilinxAppLaunchDelegateWrapper.java:31)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:855)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:704)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1047)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+21:35:46 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

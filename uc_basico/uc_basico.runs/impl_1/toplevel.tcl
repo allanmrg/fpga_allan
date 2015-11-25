@@ -55,9 +55,10 @@ set rc [catch {
   add_files -quiet T:/15.800000105/fpga_allan/uc_basico/uc_basico.runs/synth_1/toplevel.dcp
   add_files T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/microblazer.bmm
   set_property SCOPED_TO_REF microblazer [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/microblazer.bmm]
-  add_files t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf
-  set_property SCOPED_TO_REF microblazer [get_files -all t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf]
-  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/ipshared/xilinx.com/microblaze_v9_3/7b6e2d75/data/mb_bootloop_le.elf]
+  set_property SCOPED_TO_CELLS {} [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/microblazer.bmm]
+  add_files T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf
+  set_property SCOPED_TO_REF microblazer [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf]
   read_xdc -ref microblazer_microblaze_0_0 -cells U0 t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/ip/microblazer_microblaze_0_0/microblazer_microblaze_0_0.xdc
   set_property processing_order EARLY [get_files t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/ip/microblazer_microblaze_0_0/microblazer_microblaze_0_0.xdc]
   read_xdc -ref microblazer_dlmb_v10_0 -cells U0 t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/ip/microblazer_dlmb_v10_0/microblazer_dlmb_v10_0.xdc

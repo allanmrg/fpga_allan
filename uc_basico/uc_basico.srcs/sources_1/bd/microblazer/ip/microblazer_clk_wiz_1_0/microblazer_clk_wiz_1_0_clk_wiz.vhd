@@ -78,7 +78,7 @@ port
   -- Clock out ports
   clk_out1          : out    std_logic;
   -- Status and control signals
-  reset             : in     std_logic;
+  resetn             : in     std_logic;
   locked            : out    std_logic
  );
 end microblazer_clk_wiz_1_0_clk_wiz;
@@ -187,7 +187,7 @@ begin
     PWRDWN              => '0',
     RST                 => reset_high);
 
-  reset_high <= reset; 
+  reset_high <= not resetn; 
   locked <= locked_int;
 
   -- Output buffering

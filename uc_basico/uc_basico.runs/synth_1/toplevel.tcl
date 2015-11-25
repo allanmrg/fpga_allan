@@ -9,6 +9,9 @@ create_project -in_memory -part xc7a100tcsg324-1
 set_property target_language VHDL [current_project]
 set_param project.compositeFile.enableAutoGeneration 0
 set_property default_lib xil_defaultlib [current_project]
+add_files T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf
+set_property SCOPED_TO_REF microblazer [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf]
+set_property SCOPED_TO_CELLS microblaze_0 [get_files -all T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world/Debug/hello_world.elf]
 
 add_files T:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/microblazer.bd
 set_property used_in_implementation false [get_files -all t:/15.800000105/fpga_allan/uc_basico/uc_basico.srcs/sources_1/bd/microblazer/ip/microblazer_microblaze_0_0/microblazer_microblaze_0_0.xdc]

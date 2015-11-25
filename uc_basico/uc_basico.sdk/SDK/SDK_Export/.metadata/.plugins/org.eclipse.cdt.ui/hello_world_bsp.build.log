@@ -1,6 +1,5 @@
-21:31:18 **** Build of project hello_world_bsp ****
+21:21:23 **** Auto Build of project hello_world_bsp ****
 make -k all 
-cp -f microblaze_0/lib/libxil_init.a microblaze_0/lib/libxil.a
 "Running Make include in microblaze_0/libsrc/bram_v4_0/src"
 make -C microblaze_0/libsrc/bram_v4_0/src -s include -e "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v9.3 -mlittle-endian -mno-xl-reorder -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections"
 "Running Make include in microblaze_0/libsrc/cpu_v2_0/src"
@@ -43,5 +42,5 @@ rm -rf *.o
 make[2]: Leaving directory `T:/15.800000105/fpga_allan/uc_basico/uc_basico.sdk/SDK/SDK_Export/hello_world_bsp/microblaze_0/libsrc/uartlite_v3_0/src'
 'Finished building libraries'
 
-21:31:41 Build Finished (took 23s.325ms)
+21:21:42 Build Finished (took 19s.187ms)
 
